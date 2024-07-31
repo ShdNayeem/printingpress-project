@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printing Press</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-details">
+            <h1> aruna printing</h1>
+        </div>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="#home-section"> Home </a></p>
+
+            <p class="navbar-link"><a href="#catagory-section"> Services </a></p>
+            <p class="navbar-link"><a href="#gallery"> Gallery </a></p>
+            <p class="navbar-link"><a href="#client"> Clients </a></p>
+            <p class="navbar-link"><a href="#footer-section"> Contact </a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="side-navbar">
+            <p style="text-align:right;" onclick="closeNavbar()">
+                <i style="color: black;" class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="side-navbar-links">
+                <p class="side-navbar-link"><a href="index.html"> Home </a></p>
+                <p class="side-navbar-link"><a href="#catagory-section"> Services </a></p>
+                <p class="side-navbar-link"><a href="#catagory-section">  </a></p>
+                <p class="side-navbar-link"><a href="#gallery"> Gallery  </a></p>
+                <p class="side-navbar-link"><a href="#client"> Clients </a></p>
+                <p class="side-navbar-link"><a href="#footer-section"> Contact </a></p>
+                <!--<button class="side-navbar-card-btn"> <i class="fa-solid fa-cart-shopping"></i> Cart </button>-->
+            </div>
+        </div>
+    </nav>
+    <section id="home-section">
+        <div class="section">
+            <div class="section-content">
+                <div class="section-texts">
+                    <h1 class="section-h1">ARUNA PRINTING PRESS</h1>
+                    <p class="section-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+                        perspiciatis
+                        dolorem hic? Magni
+                        fuga quos quidem quia ab, deserunt non dolore tenetur quisquam pariatur et! Iste quasi ducimus a
+                        cupiditate!</p>
+                </div>
+
+                <h3 style="color:rgb(112, 168, 184);" class="since-1998"> ★ SINCE 1998</h3>
+
+            </div>
+            <div class="section-img">
+                <img src="./indeximg/frontimg.webp"  alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="service-section">
+        <div class="service">
+            <div class="service-container-1">
+                <div>
+                    <h2 class="h2-provide" style="color:rgb(44, 62, 67);">We Provide Best<br> <span class="span-provide"
+                            style="color: rgb(102, 191, 216);">Customer
+                            Experience</span></h2>
+                </div>
+
+                <div class="service-para">
+                    <p style="color: rgb(44, 62, 67);"> Transforming visions into reality, one printed page at a time.
+                        Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Magnam, veniam. Lorem ipsum dolor sit amet
+                        consectetur.</p>
+                </div>
+            </div>
+            <div class="service-container-2">
+                <div>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <h4> Service Quality </h4>
+                    <p> Quality prints that exceed expectations, guaranteed.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <h4> Customer service </h4>
+                    <p> If you have any enquiry, you can Contact our Customer service</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h4> Fast and Free shipping </h4>
+                    <p> Your order will be on time with no service charge, Enjoy your Food</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catagory-section">
+        <h1 class="category-heading" id="catagory-script"> CATEGORY </h1>
+        <div class="category-images">
+            <div class="category-container">
+                <a class="category-btn" href="./hospital/hospitals.html"><img src="./hospital/hospitalimg.jpg" width="400" height="300" alt="hospitals"></a>
+                <h2>Hospitals</h2>
+            </div>
+            <div class="category-container">
+                <a class="category-btn" href="./finance/finance.html"><img src="./finance/financesimg.png" width="400" height="300" alt="doctorbookimage"></a>
+                <h2>Finance</h2>
+            </div>
+            <div class="category-container">
+                <a class="category-btn" href="showroom.html"><img src="./showroom/showroom.jpg" width="400" height="300" alt="financeimage"></a>
+                <h2> Show Rooms</h2>
+            </div>
+            <div class="category-container">
+                <a class="category-btn" href="mahalirkuzhu.html"><img src="./mahalirkuzhu/mahalirkuluimg.jpg" width="400" height="300" alt="flexbannerimage"></a>
+                <h2> Mahalir Kuzhu </h2>
+            </div>
+            <div class="category-container">
+                <a class="category-btn" href="wedding.html"> <img src="./wedding/weddingcardimg.webp" width="400" height="300" alt="billbooksimage"></a>
+                <h2>Wedding</h2>
+            </div>
+            <div class="category-container">
+                <a class="category-btn" href="banners.html"><img src="./banners/fleximg.jpg" width="400" height="300" alt="visitingimage"></a>
+                <h2> Banners & others </h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="gallery" id="gallery">
+        <div class="gallery-heading">
+            <h2> GALLERY </h2>
+        </div>
+        <div class="gallery-image">
+            <div class="gal-img">
+                <img src="./gallery/gallery1.jpg" width="290px" height="200" alt="">
+            </div>
+            <div class="gal-img">
+                <img src="./gallery/gallery2.jpg" width="290px" height="200" alt="">
+            </div>
+            <div class="gal-img">
+                <img src="./gallery/gallery5.jpg" width="290px" height="200" alt="">
+            </div>
+            <div class="gal-img">
+                <img src="./gallery/gallery6.webp" width="290px" height="200" alt="">
+            </div>
+            <div class="gal-img">
+                <img src="./gallery/gallery3.jpg" width="290px" height="200" alt="">
+            </div>
+            <div class="gal-img">
+                <img src="./gallery/gallery9.jpg" width="290px" height="200" alt="">
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+
+    <div class="client" id="client">
+        <div class="client-heading">
+            <h2> CLIENT</h2>
+        </div>
+         <!-- 
+#### EDIT
+I built this slider when I first started to learn JS, you can rebuild it with more readable, simple and less code, I'm too lazy to update it, sorry :) 
+-->
+
+<!-- 
+	use the left and right arrow keys on your keyboard or just swipe left and right on your smart phone to interact with the slider
+-->
+
+<section id="testim" class="testim">
+    <!--         <div class="testim-cover"> -->
+                <div class="wrap">
+    
+                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                    <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li>
+                    </ul>
+                    <div id="testim-content" class="cont">
+                        
+                        <div class="active">
+                            <div class="img"><img src="./testimonial/client1.jpg" alt=""></div>
+                            <h2>Lorem P. Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./testimonial/client2.jpg" alt=""></div>
+                            <h2>Mr. Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./testimonial/client3.jpg"alt=""></div>
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./testimonial/client1.jpg"alt=""></div>
+                            <h2>Lorem De Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./testimonial/client2.jpg" alt=""></div>
+                            <h2>Ms. Lorem R. Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    <!--         </div> -->
+        </section>
+    
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+    
+ 
+    </div>
+    <div class="texts-map">
+        <div class="texts">
+            <h2> PRINTING PRESS </h2>
+            <p> Near Union Bank,</p>
+            <P>Tenkasi District,</P>
+            <p>Kadayanallur-627751</p>
+            <div class="call-1">
+                <i class="fa-solid fa-phone"></i>
+                <span> +90 9088080908</span>
+            </div>
+            <div class="call-2">
+                <i class="fa-solid fa-phone"></i>
+                <span> +90 9088080908</span>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63034.05381971473!2d77.29194161792965!3d9.097578287305454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0684ff84b4092b%3A0x22b415a79c6612b5!2sKadayanallur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1721043321419!5m2!1sen!2sin"
+                width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    
+    <section id="footer-section">
+        <div class="footer" id="footer-script">
+            <div class="footer-container">
+                <div class="info">
+                    <div>
+                        <div class="info-heading">
+                            <h2> Contact Us</h2>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 568293680</span>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>press@gmail.com</span>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                           <span> Kadayanallur</span>
+                        </div>
+                    </div>
+
+                    <div class="market">
+                        <div class="market-info">
+                            <div class="visit-market-icon">
+                                <i class="fa-solid fa-store"></i>
+                                <h2 class="visit-market"> Visit Our Press</h2>
+                            </div>
+                            <h4 class="opening-heading">Opening Hours</h4>
+                            <div class="days-hours">
+                                <div class="days">
+                                    <p> Monday</p>
+                                    <p> Tuesday</p>
+                                    <p> Wednesday</p>
+                                    <p> Thursday</p>
+                                    <p> Friday</p>
+                                    <p> Saturday</p>
+                                    <p class="closed"> Sunday</p>
+                                </div>
+                                <div class="hours">
+                                    <p> 9am to 10pm</p>
+                                    <p> 9am to 10pm</p>
+                                    <p> 9am to 10pm</p>
+                                    <p> 9am to 10pm</p>
+                                    <p> 9am to 10pm</p>
+                                    <p> 9am to 10pm </p>
+                                    <p class="closed"> Closed </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="address">
+                        <div class="address-heading">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h2> Address </h2>
+                        </div>
+
+                        <div class="address-details">
+                            <p> 97, Printing Press </p>
+                            <p> Near union Bank </p>
+                            <p> Kadayanallur </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="opy">
+                    <!-- <p>yttv7t7vtytyyy</p> -->
+                </div>
+            </div>
+            <!--<hr>
+        <p class="rights-reserved">Copyright © Printing Press - All Rights Reserved.</p>
+        <p class="developed"> Site Developed by NothingFirst</p>-->
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="client.js"></script>
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+</body>
+
+</html>
