@@ -47,7 +47,7 @@ body{
 }
 .section{
     text-align: justify;
-    background-image: url(bgurl.webp);
+    background-image: url(./indeximg/bgurl.webp);
     padding: 26px;
     padding-bottom: 70px;
     width: 100%;
